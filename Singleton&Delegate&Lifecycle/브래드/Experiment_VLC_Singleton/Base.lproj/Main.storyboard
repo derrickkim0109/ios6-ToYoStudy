@@ -23,7 +23,8 @@
                                 <color key="backgroundColor" red="0.63422542810000004" green="0.51760834460000005" blue="0.3684726357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="신상품 구매 페이지로 이동"/>
                                 <connections>
-                                    <segue destination="CBv-V7-3GI" kind="presentation" modalPresentationStyle="fullScreen" id="CBz-Kn-K2L"/>
+                                    <action selector="goPurchasePage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QCW-dx-cmt"/>
+                                    <segue destination="CBv-V7-3GI" kind="presentation" identifier="show" destinationCreationSelector="show:" modalPresentationStyle="fullScreen" id="Kjy-pL-5z8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ByG-Vd-NTB">

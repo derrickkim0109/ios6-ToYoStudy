@@ -5,50 +5,33 @@
 
 import UIKit
 
-class PointManager {
-    static let shared = PointManager()
-    
-    var point: Int = 50
-    private init() {
-        
-    }
+
+protocol PointManager {
+    var point: Int {get set}    
 }
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController, PointManager {
+    var point: Int = 50
     
     @IBOutlet weak var PointLabel: UILabel!
     
-    let pointManager = PointManager.shared
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        PointLabel.text = "\(pointManager.point)"
-        print("MainViewController: viewDidLoad")
+        PointLabel.text = "\(point)"
     }
     
     @IBAction func doRefreshPoint(_ sender: UIButton) {
-        PointLabel.text = "\(pointManager.point)"
+        PointLabel.text = "\(point)"
     }
     
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        print("MainViewController: viewWillAppear")
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "show" {
+            let viewController : BuyingViewController = segue.destination as! BuyingViewController
+            viewController.delegate = self
+        }
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        print("MainViewController: viewDidAppear")
+    @IBAction func goPurchasePage(_ sender: UIButton) {
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        print("MainViewController: viewDidAppear")
-    }
-    
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(animated)
-        print("MainViewController: viewDidAppear")
-    }
 }
-
