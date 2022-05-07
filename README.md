@@ -88,6 +88,24 @@
     
 </div>
 </details>
+  
+<details>
+<summary> 4주차(5/07) </summary>
+<div markdown="1">
+
+## 토요스터디
+### 📚 4주차 [6기] 오후 C반 스터디
+
+## ✏️ 공부한내용
+- View Life Cycle
+- Singleton Pattern
+- Singleton Pattern의 사용
+- 전체화면 전환
+- delegate 사용
+- 스터디 Readme.md 작성
+    
+</div>
+</details>  
 
 <a name="커밋컨벤션"></a>
 
