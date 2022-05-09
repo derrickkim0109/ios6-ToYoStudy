@@ -36,11 +36,11 @@
 <summary> 1주차(4/16) </summary>
 <div markdown="1">
 
-📚 1주차 오전 C반 스터디
-🧑🏻‍💻 모각코 주제
+## 📚 1주차 오전 C반 스터디
+## 🧑🏻‍💻 모각코 주제
 : Optional, 한주동안 진행한 학습 내용, Error 처리 
 
-📒 공부하면서 나눈 이야기 및 질문
+## 📒 공부하면서 나눈 이야기 및 질문
 
 - 포문에 Array.indicises 를  사용 하면 0..<Array.count를 안해도 된다
 - 포문에 Array.enumerated 를 사용하면 배열의 index값과 배열의 value값을 뽑을수 있다.
