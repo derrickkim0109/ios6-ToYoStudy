@@ -31,6 +31,7 @@
 |2|2022-04-23|Type 정의, 접근제어자 정의|2| 
 |3|2022-04-30|notificationCenter|0|
 |4|2022-05-07|Singleton패턴, ViewLifeCycle, delegate 패턴|
+|5|2022-05-14|UML, Unit Test, TDD|
 
 <details>
 <summary> 1주차(4/16) </summary>
@@ -107,6 +108,22 @@
 </div>
 </details>  
 
+  
+<details>
+<summary> 5주차(5/14) </summary>
+<div markdown="1">
+
+## 토요스터디
+### 📚 5주차 [6기] 오후 C반 스터디
+
+## ✏️ 공부한내용
+- TDD
+- Unit Test
+- UML
+
+</div>
+</details>  
+  
 <a name="커밋컨벤션"></a>
 
 ## 🤓 커밋 컨벤션
