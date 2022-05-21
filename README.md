@@ -32,6 +32,7 @@
 |3|2022-04-30|notificationCenter|0|
 |4|2022-05-07|Singleton패턴, ViewLifeCycle, delegate 패턴|
 |5|2022-05-14|UML, Unit Test, TDD|
+|6|2022-05-21|LLDB|
 
 <details>
 <summary> 1주차(4/16) </summary>
