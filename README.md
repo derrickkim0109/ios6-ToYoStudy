@@ -33,6 +33,7 @@
 |4|2022-05-07|Singleton패턴, ViewLifeCycle, delegate 패턴|
 |5|2022-05-14|UML, Unit Test, TDD|
 |6|2022-05-21|LLDB|
+|7|2022-05-28|클로저, 고차함수|
 
 <details>
 <summary> 1주차(4/16) </summary>
@@ -159,7 +160,23 @@
 
 </div>
 </details>  
-  
+  <details>
+<summary> 7주차(5/28) </summary>
+<div markdown="1">
+
+## 토요스터디
+### 📚 7주차 [6기] 오후 C반 스터디
+
+## ✏️ 공부한내용
+- 클로저
+    - 프로퍼티도 메소드처럼 클로저를 사용할 수 있다.
+- 고차함수(map, reduce, filter)를(을) 한 문장으로 얘기할 수 있다.
+    - map:  기존 데이터를 변경되지 않은 상태에서 변형하기 위해 사용
+    - reduce: 컨테이너 내부의 요소를 하나로 합하는 역활 (연산을 수행하여 하나로 합칠 수 있다)
+    - filter: 컨테이너 내부의 값을 걸러 추출하는 역활 Bool 타입으로 사용
+
+</div>
+</details> 
 <a name="커밋컨벤션"></a>
 
 ## 🤓 커밋 컨벤션
