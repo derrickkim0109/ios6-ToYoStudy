@@ -31,6 +31,9 @@
 |2|2022-04-23|Type 정의, 접근제어자 정의|2| 
 |3|2022-04-30|notificationCenter|0|
 |4|2022-05-07|Singleton패턴, ViewLifeCycle, delegate 패턴|
+|5|2022-05-14|UML, Unit Test, TDD|
+|6|2022-05-21|LLDB|
+|7|2022-05-28|클로저, 고차함수|
 
 <details>
 <summary> 1주차(4/16) </summary>
@@ -107,6 +110,73 @@
 </div>
 </details>  
 
+  
+<details>
+<summary> 5주차(5/14) </summary>
+<div markdown="1">
+
+## 토요스터디
+### 📚 5주차 [6기] 오후 C반 스터디
+
+## ✏️ 공부한내용
+- TDD
+- Unit Test
+- UML
+
+</div>
+</details>  
+
+<details>
+<summary> 6주차(5/21) </summary>
+<div markdown="1">
+
+## 토요스터디
+### 📚 6주차 [6기] 오후 C반 스터디
+
+## ✏️ 공부한내용
+- LLDB 사용 이유
+- Help 와 Apropos 를 통한 명령어 검색
+- BreakPoint
+    - BreakPoint만들기 : 
+        - 함수이름을 통해(b s -n "name"), 
+        - 파일이름을 통해(b s -f "filename" -l "line")
+        - 조건을 걸어서( br s -n "viewWillAppear" -c animated) 조건이 true일 경우 break
+    - Command실행과 AutoContinue:
+        - (-C) 옵션을 통해 break시 원하는 command 실행가능
+        - (-G) 옵션을 통해 break에 걸린채로 있지 않고 자동 진행하게 만들어 주기 
+    - breakPoint List 확인하기:
+        - breakpoint list
+    - breakPoint 삭제하기, 비활성화 하기:
+        - breakpoint delete, breakpoint disable
+- Stepping
+    - Stepping Over: (n) 다음 statement로 이동
+    - Stepping In: (s) 함수 내부에 위치한 시작지점으로 이동
+    - Stepping Out: (finish) 함수 반환까지 프로그램을 진행 후 break
+- Expression
+    - po: 객체의 정보를 출력
+    - Variable: 자동으로 $R0 에 저장된다? 
+        - $R0 을 지역변수로 사용할 수 있다
+        - expr var $someNumber = 10 이런식으로 콘솔창에서 선언도 가능
+
+</div>
+</details>  
+  <details>
+<summary> 7주차(5/28) </summary>
+<div markdown="1">
+
+## 토요스터디
+### 📚 7주차 [6기] 오후 C반 스터디
+
+## ✏️ 공부한내용
+- 클로저
+    - 프로퍼티도 메소드처럼 클로저를 사용할 수 있다.
+- 고차함수(map, reduce, filter)를(을) 한 문장으로 얘기할 수 있다.
+    - map:  기존 데이터를 변경되지 않은 상태에서 변형하기 위해 사용
+    - reduce: 컨테이너 내부의 요소를 하나로 합하는 역활 (연산을 수행하여 하나로 합칠 수 있다)
+    - filter: 컨테이너 내부의 값을 걸러 추출하는 역활 Bool 타입으로 사용
+
+</div>
+</details> 
 <a name="커밋컨벤션"></a>
 
 ## 🤓 커밋 컨벤션
